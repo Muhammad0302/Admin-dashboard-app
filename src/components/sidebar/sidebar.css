@@ -1,3 +1,9 @@
+.Link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
 .sidebar {
   flex: 1;
   height: calc(100vh - 50px);

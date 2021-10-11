@@ -23,8 +23,10 @@ function Sidebar() {
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem active">
-              <LineStyle className="sidebarIcon" />
-              Home
+              <Link to="/" className="Link">
+                <LineStyle className="sidebarIcon" />
+                Home
+              </Link>
             </li>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" />
@@ -41,8 +43,10 @@ function Sidebar() {
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <PermIdentity className="sidebarIcon" />
-              Users
+              <Link to="/users" className="Link">
+                <PermIdentity className="sidebarIcon" />
+                Users
+              </Link>
             </li>
             <li className="sidebarListItem">
               <Storefront className="sidebarIcon" />
