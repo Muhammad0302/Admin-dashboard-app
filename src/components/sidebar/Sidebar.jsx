@@ -49,8 +49,10 @@ function Sidebar() {
               </Link>
             </li>
             <li className="sidebarListItem">
-              <Storefront className="sidebarIcon" />
-              Products
+              <Link to="/products" className="Link">
+                <Storefront className="sidebarIcon" />
+                Products
+              </Link>
             </li>
             <li className="sidebarListItem">
               <AttachMoney className="sidebarIcon" />
