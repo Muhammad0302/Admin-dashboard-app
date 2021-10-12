@@ -3,6 +3,7 @@
   color: inherit;
   display: flex;
   align-items: center;
+  color: black;
 }
 .sidebar {
   flex: 1;
@@ -40,4 +41,8 @@
 .sidebarIcon {
   margin-right: 5px;
   font-size: 20px !important;
+  color: rgb(231, 208, 208);
+}
+.sidebarIcon.activButton {
+  color: rgb(68, 65, 65);
 }

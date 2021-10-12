@@ -24,7 +24,7 @@ function Sidebar() {
           <ul className="sidebarList">
             <li className="sidebarListItem active">
               <Link to="/" className="Link">
-                <LineStyle className="sidebarIcon" />
+                <LineStyle className="sidebarIcon activButton" />
                 Home
               </Link>
             </li>
@@ -44,13 +44,13 @@ function Sidebar() {
           <ul className="sidebarList">
             <li className="sidebarListItem">
               <Link to="/users" className="Link">
-                <PermIdentity className="sidebarIcon" />
+                <PermIdentity className="sidebarIcon activButton" />
                 Users
               </Link>
             </li>
             <li className="sidebarListItem">
               <Link to="/products" className="Link">
-                <Storefront className="sidebarIcon" />
+                <Storefront className="sidebarIcon activButton" />
                 Products
               </Link>
             </li>
